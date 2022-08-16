@@ -1,0 +1,254 @@
+#unmute{ display: none; }
+.title_bar{text-align: center; 
+color: #FFFFFF;
+
+width: 100%; 
+
+font-size: 15px; 
+text-align: center; 
+font-weight: bold; 
+
+  }
+#bottom{ position: fixed; 
+left: 0;
+bottom:0;
+width:100%;
+background: black;  }
+
+
+    
+    
+    .song_image {
+    
+    position: absolute; 
+    bottom: 1px ! important;
+    right: 5px ! important;
+    
+     }
+     
+     
+     
+     #my_chat_list{height: 90%; 
+     overflow: scroll; 
+     }
+     
+     #Myplaylist {
+     height: 85%; 
+     
+     overflow: scroll; 
+     }
+     
+     
+     @media (min-width: 360px) {
+          #Myplaylist {
+     
+     
+     overflow: scroll; 
+    
+     }
+     
+         .music-player{
+         height: 100%; 
+ 
+ width: 100%; }
+   
+   
+ 
+}
+
+     
+     @media (min-width: 980px) {.music-list{ width:30%; }
+
+     .title_bar{width: 100%;}
+    
+ 
+}
+
+      #song_image img{
+      
+     height: 0px ! important;
+     width: 50px ! important;
+     
+     }
+     
+     
+     
+     
+     #p{  width: 100%; 
+     height: 1.5px; 
+   background: white;
+      }
+      
+      
+     #p::before {font-size: 0px;
+  content: "- ";
+  
+}
+
+
+.white{background: black; width: 100%; }
+
+
+ 
+ .music-player{
+
+            
+ border-radius: 0.0em;
+  box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
+ left: 0px;
+ position: fixed; 
+ top:0px; 
+ margin-top: 0px; 
+ 
+ background-repeat: no;
+
+ 
+background: black;
+  z-index:999999999999999999999999999999999999999998899999;
+ }
+ 
+ 
+ 
+ .element {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            animation: moveToRight 1s ease-in-out;
+            animation-delay: 1000ms;
+        }
+
+        @keyframes moveToRight {
+            0% {display: none;
+            left: 100%;
+             position: fixed; 
+            top:0px; 
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateY(0%);
+            }
+        }
+
+
+
+ 
+ 
+#sidebar{
+position: fixed; 
+ border-radius: 0.0em;
+ background: black;
+ top: 0px; 
+  left: 0px;
+  margin:0px; 
+ width: 70%; 
+ margin-top: 0px; 
+ height: 100%; 
+ color: white;
+  box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
+    z-index:999999999999999999999999999999999999999998899999;
+ }
+
+#network_connection_blank{position: fixed; 
+ border-radius: 0.0em;
+ background-color: black;
+ 
+ top: 0px; 
+  right: 0px;
+  margin:0px; 
+width:100%;
+ 
+ margin-top: 0px; 
+ height: 100%; 
+ color: white;
+ 
+
+    z-index:999999999999999999999999999999999999999998899999;
+
+}
+ 
+ 
+ #option_blank, #blank{
+ 
+ position: fixed; 
+ border-radius: 0.0em;
+ background-color: rgba(0, 0, 0, 0.3);
+ 
+ top: 0px; 
+  right: 0px;
+  margin:0px; 
+width:100%;
+ 
+ margin-top: 0px; 
+ height: 100%; 
+ color: white;
+ 
+
+    z-index:999999999999999999999999999999999999999998899999;
+ }
+ 
+ 
+ #network_connection{ position: fixed; 
+ width:100%;
+ 
+ 
+ top: 50%; 
+ text-align: center;
+   z-index:999999999999999999999999999999999999999998899999;
+ }
+ 
+ 
+ 
+.music-list{
+ position: fixed; 
+ border-radius: 0.0em;
+ background: black;
+ 
+ top: 0px; 
+  left: 0px;
+  margin:0px; 
+ margin-top: 0px; 
+ height: 100%; 
+ width:100%; 
+ color: white;
+  box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
+    z-index:999999999999999999999999999999999999999998899999;
+ }
+ 
+.mail-list{
+ position: fixed; 
+ border-radius: 0.0em;
+ background: black;
+ 
+ top: 0px; 
+  left: 0px;
+  margin:0px; 
+ margin-top: 0px; 
+ height: 100%; 
+ width:100%; 
+ color: white;
+  box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
+  z-index:999999999999999999999999999999999999999998899999;
+ }
+ 
+ 
+ 
+ .player-options{margin: 0px; 
+ background: transparent;}
+ 
+ .time-container{ margin-left: 5px;
+ margin-right: 5px;
+  background: transparent; 
+  color: white;  }
+
+     
+  .no_selection{ 
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+  

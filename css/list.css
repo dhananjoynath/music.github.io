@@ -1,0 +1,213 @@
+.border{
+    border-bottom: 1px solid red; width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+a{text-decoration: none;}
+
+
+
+header{
+    background-color: #262837;
+    padding: .8em;
+    color: white;
+    font-size: 1.2em;
+    padding-bottom: 0;
+    position: sticky;
+    top: -60px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.header_upperpart{
+    display: flex;
+    justify-content: space-between;
+    margin: .3em;
+    align-items: center;
+}
+
+.header_top_icons{
+    display: flex;
+    align-items: center;
+}
+
+.header_top_icons i{
+    margin: 0em 0em 0em 1.2em;
+}
+
+.header_lowepart{
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: space-between;
+}
+
+
+
+.header_upperpart a{color: white;}
+
+.header_lowepart a{
+   color: red;
+}
+
+.header_lowepart span{
+    padding: 0em 1em;
+    padding-bottom: .1em;
+}
+
+.active{
+    border-bottom: 2px solid red;
+}
+.active a{
+    border-bottom: 2px solid red;
+    color: red;
+}
+. round {border-radius: 50%; }
+
+
+
+.chat_list_container{
+justify-content: space-between;
+display: flex;
+    margin-right: 10px;
+    padding-top: 5px; 
+    
+}
+
+.song_list_container{
+justify-content: space-between;
+display: flex;
+    margin-right: 10px;
+    
+}
+
+
+.top_container{
+
+width: 340px;
+justify-content: space-between;
+display: flex;
+padding-top: 20px; 
+padding-bottom: 20px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    background: black; 
+    border-bottom: 0.5px silver solid; 
+}
+
+
+
+
+.song_list_container :hover{
+background: red;
+}
+
+
+
+
+
+
+.chat{
+    display: flex;
+    align-items: left;
+    justify-content: space-round;
+    margin-bottom: 5px;
+}
+
+.profile img{
+    width: 2.5em;
+    height: 2.5em;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.profile{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.options_div{
+    text-align: right; 
+    height: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.chat_time_div{
+    text-align: right; 
+    height: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
+
+.chat_time{ font-size: 8px; }
+
+.text{
+text-align: left; 
+    margin: 1px;
+}
+
+.name{
+text-align: left; 
+    font-size: 14px;
+    color: white;
+}
+
+.message{
+font-size: 12px;
+    color: silver;
+}
+
+
+  
+  
+  .menu_button1, .search_button1{ 
+  border: none;
+  
+  outline: none;
+  color: white;
+  font-size: 30px;
+  
+  background: transparent; }
+  
+  
+  
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:10px;
+	right:10px;
+	background-color: white;
+	color:white;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:999999999999999999999920;
+}
+
+
+.float
+a.active {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+
+
+
+.my-float{color: #262833;
+	margin-top:10px;
+	background: white;
+}
+
+
+  
